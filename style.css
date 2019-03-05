@@ -7,10 +7,43 @@ nav {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
-.nav-item {
-    background-color: red;
+.services span{
+    width:200px;
+    display: inline-block;
 }
 
 .nav-link {
     opacity: 0.7;
 }
+.services i{
+    /*Adjust the size and postion of the icon*/
+    font-size: 30px;
+    
+    padding:25px 20px;
+    /*Color changes the color of the icon*/
+    color: #fff;
+    background-color: #5bc0de;
+    /*Resixe the container the icon is in*/
+    width: 80px;
+    height:80px;
+    /*Changes the roundness of the container*/
+    border-radius: 50%;
+}
+    
+.nav-link:hover {
+    opacity: 1.0;
+    background-color:gray;
+}
+
+header {
+     background-image: url("https://static01.nyt.com/images/2018/01/14/realestate/14Brooklyn/merlin_127549397_cdaab3a5-d376-435e-9dc0-d5188c07c897-articleLarge.jpg?quality=75&auto=webp&disable=upscale");
+    text-align: center;
+    height: 600px;
+    background-size: cover;
+}
+
+header p {
+    font-style: italic;
+    
+}
+
